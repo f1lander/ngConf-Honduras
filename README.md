@@ -6,6 +6,13 @@ npm install netlify-cli -g
 netlify login
 ```
 
+### Crear tu proyecto
+
+```
+ng new <tu_app>
+cd <tu_app>
+```
+
 ### En tu proyecto Angular
 
 ```
