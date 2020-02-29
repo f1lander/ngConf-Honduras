@@ -1,11 +1,8 @@
-```
-npm install -g ng-cli
-npm install netlify-cli -g
-```
-
 ### Crear cuenta en Netlify
 
 ```
+npm install -g ng-cli
+npm install netlify-cli -g
 netlify login
 ```
 
