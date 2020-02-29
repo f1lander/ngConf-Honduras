@@ -1,18 +1,26 @@
-0. npm install -g ng-cli
-1. npm install netlify-cli -g
+```
+npm install -g ng-cli
+npm install netlify-cli -g
+```
 
-Crear cuenta en Netlify
+##Crear cuenta en Netlify
 
-0. netlify login
+```
+netlify login
+```
 
-En tu proyecto Angular
+##En tu proyecto Angular
 
+```
 netlify init
 
 touch netlify.toml
 
-agregar a este archivo
+```
 
+Agregar a este archivo
+
+```
 [build]
 
   publish = "dist/<nombre del proyecto>"
@@ -20,9 +28,10 @@ agregar a este archivo
 ng build --prod
 
 netlify deploy
+```
 
-Si todo esta bien
+##Si todo esta bien
 
-netlify deploy --prod
+```netlify deploy --prod```
 
 
