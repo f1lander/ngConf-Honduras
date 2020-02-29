@@ -1,5 +1,9 @@
 ### Crear cuenta en Netlify
 
+http://netlify.com
+
+### Instalar cli
+
 ```
 npm install -g ng-cli
 npm install netlify-cli -g
