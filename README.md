@@ -3,13 +3,13 @@ npm install -g ng-cli
 npm install netlify-cli -g
 ```
 
-##Crear cuenta en Netlify
+#Crear cuenta en Netlify
 
 ```
 netlify login
 ```
 
-##En tu proyecto Angular
+#En tu proyecto Angular
 
 ```
 netlify init
@@ -30,7 +30,7 @@ ng build --prod
 netlify deploy
 ```
 
-##Si todo esta bien
+#Si todo esta bien
 
 ```netlify deploy --prod```
 
