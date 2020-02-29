@@ -32,6 +32,9 @@ touch netlify.toml
 [build]
 
   publish = "dist/<nombre del proyecto>"
+```
+
+### Publicar
 
 ng build --prod
 
